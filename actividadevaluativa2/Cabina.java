@@ -4,15 +4,15 @@ public class Cabina extends Equipaje {
 
     // Constructores
     public Cabina(double peso, double tamanio) {
-        peso = super.getPeso();
-        tamanio = super.getTamanio();
+        super(peso, tamanio);
     }
 
     public Cabina(double precioBase) {
-        precioBase = super.getPrecioBase();
+        super(precioBase);
     }
 
     public Cabina() {
+        super();
     }
 
     // Metodos

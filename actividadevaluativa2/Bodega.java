@@ -4,15 +4,15 @@ public class Bodega extends Equipaje {
 
     // Constructores
     public Bodega(double peso, double tamanio) {
-        peso = super.getPeso();
-        tamanio = super.getTamanio();
+        super(peso, tamanio);
     }
 
     public Bodega(double precioBase) {
-        precioBase = super.getPrecioBase();
+        super(precioBase);
     }
 
     public Bodega() {
+        super(); 
     }
 
     // Metodos
